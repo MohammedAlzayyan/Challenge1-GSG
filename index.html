@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Challenge: Filterable Product List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Coding Challenge GSG</h1>
+    </header>
+
+    <dialog id="add-product-dialog">
+      <form id="add-product-form" method="dialog">
+        <h2>Add a New Product</h2>
+
+        <label for="name">Product Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="category">Category:</label>
+        <input type="text" id="category" name="category" required />
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" required />
+
+        <label for="image">Image URL:</label>
+        <input type="text" id="image" name="image" required />
+
+        <menu>
+          <button type="submit">Add Product</button>
+          <button type="button" id="close-dialog-btn">Cancel</button>
+        </menu>
+      </form>
+    </dialog>
+
+    <h2 class="sectionName">Products List</h2>
+
+    <section class="filters">
+      <button onclick="filterProducts('All', this)" class="active">All</button>
+      <button onclick="filterProducts('Electronics', this)">Electronics</button>
+      <button onclick="filterProducts('Clothing', this)">Clothing</button>
+      <button onclick="filterProducts('Accessories', this)">Accessories</button>
+    </section>
+
+    <section id="product-list" class="product-list"></section>
+
+    <button id="add-product-btn" class="add-product">Add a new Product</button>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

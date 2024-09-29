@@ -1,0 +1,38 @@
+[
+    {
+      "name": "IPhone",
+      "category": "Electronics",
+      "price": 299,
+      "image": "images/iphone.jpg"
+    },
+    {
+      "name": "Laptop",
+      "category": "Electronics",
+      "price": 899,
+      "image": "images/computer.png"
+    },
+    {
+      "name": "T-Shirt",
+      "category": "Clothing",
+      "price": 19,
+      "image": "images/t-shirt.jpg"
+    },
+    {
+      "name": "Jeans",
+      "category": "Clothing",
+      "price": 49,
+      "image": "images/trousers.png"
+    },
+    {
+      "name": "Sunglasses",
+      "category": "Accessories",
+      "price": 29,
+      "image": "images/sunglasses.jpg"
+    },
+    {
+      "name": "Mobile charger",
+      "category": "Accessories",
+      "price": 199,
+      "image": "images/charger.jpg"
+    }
+  ]
